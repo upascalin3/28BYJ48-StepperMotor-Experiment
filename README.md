@@ -80,6 +80,7 @@ void loop() {
     }
   }
 }
+```
 🧮 How It Works
 The Arduino reads the Serial input from the user.
 
