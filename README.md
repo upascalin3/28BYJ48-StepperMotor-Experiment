@@ -139,15 +139,17 @@ Open the Serial Monitor (baud rate 9600)
 
 Type commands such as:
 
-text
+```text
 Copy code
 rotate 90
 rotate -180
 rotate 360
 The motor will rotate according to the command.
+```
+---
 
-📷 Example Output
-text
+## 📷 Example Output
+```text
 Copy code
 Stepper Motor Ready!
 Type: rotate <angle>
@@ -156,10 +158,11 @@ Example: rotate 90  or  rotate -180
 Rotating 90 degrees...
 Done.
 Positive angles → clockwise rotation
-
 Negative angles → counterclockwise rotation
+```
+---
 
-🧮 Kinematics in Context
+## 🧮 Kinematics in Context
 Kinematics relates joint movements (motor steps) to mechanical position.
 By converting degrees into steps, we can precisely control the motor and track positions — critical for robotic arms and automation projects.
 
@@ -174,7 +177,9 @@ By converting degrees into steps, we can precisely control the motor and track p
 
 🔄 Integrate encoders for movement verification
 
-🧰 Troubleshooting
+---
+
+## 🧰 Troubleshooting
 Issue	Cause	Solution
 Motor not moving	Wrong wiring	Check pin sequence (IN1, IN3, IN2, IN4)
 Motor jitter	Speed too high	Reduce RPM in setSpeed()
@@ -182,7 +187,7 @@ Upload error	Port/permissions	Reconnect USB or run sudo usermod -aG dialout $USE
 No Serial response	Baud mismatch	Set Serial Monitor to 9600
 
 📂 Repository Structure
-bash
+```bash
 Copy code
 28BYJ48-StepperMotor-Experiment/
 │
@@ -191,14 +196,15 @@ Copy code
 └── images/              # Wiring diagrams & photos
 📜 License
 This project is licensed under the MIT License — free for personal, educational, and research use.
+```
 
-👩‍💻 Author
-Uwayo Pascaline
-Experiment: Controlling the 28BYJ-48 Stepper Motor using Arduino Uno & ULN2003
-📧 Email: pascuwayo@gmail.com
-📍 Kigali, Rwanda
+## 👩‍💻 Author
+- Uwayo Pascaline
+- Experiment: Controlling the 28BYJ-48 Stepper Motor using Arduino Uno & ULN2003
+- 📧 Email: pascuwayo@gmail.com
+- 📍 Kigali, Rwanda
 
-🌐 GitHub Repository
+## 🌐 GitHub Repository
 https://github.com/upascalin3/28BYJ48-StepperMotor-Experiment
 
 
